@@ -7,36 +7,66 @@
     <link rel="shortcut icon" type="image/png" href="./img/profile.png" />
     <script src="https://kit.fontawesome.com/bff14d2895.js"></script>
     <link
+      href="https://fonts.googleapis.com/css?family=Aladin"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
     />
-    <style>
-      h1 {
-        font-family: 'Aladin';
-        margin-top: 70vh;
-        text-align: center;
-        font-size: 3rem;
-        color: rgb(25, 54, 85);
-      }
-      body {
-        background: rgb(230, 242, 254);
-        background-image: url(img/background.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-      }
-    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Aldrich"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./scripts/script.js"></script>
+    <!--  Site Variables
+      Colors:
+        Background: #E6F2FE
+        Icon/Light: #51A4FB
+        Texts/Dark: #193655
+      Fonts:
+        Signature Aladin  https://fonts.google.com/specimen/Aladin
+        Slogan    OFLGoudyStMTT.ttf
+        Text
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
+    -->
   </head>
   <body>
+    <div id="header">
+      <img id="img_logo" src="./img/profile.png" alt="site_logo" />
+      <div id="header_text">
+        <span id="site_signature">
+          jqLiu.dev
+        </span>
+        <span id="site_slogan">
+          Think Outside the Stack
+        </span>
+      </div>
+    </div>
+    <!-- End of Header -->
     <div>
-      <h1>
+      Current scroll = <b id="scrollValue">0 px</b>
+      <h1 style="text-align: center">
         <i class="fas fa-hammer"></i>
         This site is currently
         <i class="fas fa-screwdriver"></i>
         under construction
         <i class="fas fa-wrench"></i>
       </h1>
+    </div>
+    <div id="panels">
+      <div id="panelLeft">project demo 1</div>
+      <div id="panelMid">project demo 2</div>
+      <div id="panelRight">project demo 3</div>
+    </div>
+    <div id="footer">
+      <span
+        style="padding-right: 10px; margin-right: 5px; border-right: solid 2px"
+        >copyright jqliu.dev 2019</span
+      >
+      <span>contact: jq@jqliu.dev</span>
     </div>
   </body>
 </html>

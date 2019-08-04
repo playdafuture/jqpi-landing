@@ -1,0 +1,75 @@
+#header {
+  display: flex;
+  height: 85vh;
+  background-color: bisque;
+}
+#img_logo {
+  height: 100%;
+  float: left;
+}
+#header_text {
+  /* float: left; */
+  /* text-align: center; */
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
+  /* vertical-align: middle; */
+  /* position: relative; */
+  display: flex;
+  flex-wrap: wrap;
+}
+#site_signature {
+  order: 1;
+  flex-grow: 1;
+  font-family: 'Aladin';
+  text-align: center;
+  font-size: 1000%;
+  min-width: 80%;
+  color: #193655;
+  text-shadow: 4px 4px 4px #aaa;
+}
+#site_slogan {
+  order: 2;
+  flex-grow: 1;
+  font-family: 'Aldrich';
+  text-align: center;
+  /* font-size: 3rem; */
+  min-width: 50%;
+  color: #193655;
+  text-shadow: 1px 1px 1px #aaa;
+}
+#panels {
+  background-color: white;
+  height: 85vh;
+  display: flex;
+  font-size: 6rem;
+}
+#panelLeft {
+  background-color: rgb(233, 169, 169);
+  height: 100%;
+  width: 33%;
+}
+#panelMid {
+  background-color: lightgreen;
+  height: 100%;
+  width: 33%;
+}
+#panelRight {
+  background-color: rgb(169, 202, 233);
+  height: 100%;
+  width: 33%;
+}
+
+body {
+  font-family: 'Aldrich';
+  background: rgb(238, 236, 236);
+}
+
+#footer {
+  background-color: bisque;
+  text-align: center;
+  vertical-align: center;
+  height: 5vh;
+}
