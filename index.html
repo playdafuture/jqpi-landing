@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>jqLiu.dev</title>
-    <link rel="shortcut icon" type="image/png" href="./img/profile.png" />
+    <link rel="shortcut icon" type="image/png" href="./img/icon.png" />
     <script src="https://kit.fontawesome.com/bff14d2895.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Aladin"
@@ -33,28 +33,33 @@
       />
     -->
   </head>
-  <body>
+  <body onload="updateInfo()">
     <div id="header">
-      <img id="img_logo" src="./img/profile.png" alt="site_logo" />
-      <div id="header_text">
-        <span id="site_signature">
-          jqLiu.dev
-        </span>
-        <span id="site_slogan">
-          Think Outside the Stack
-        </span>
+      <div id="resize_header">
+        <img id="img_logo" src="./img/profile.png" alt="site_logo" />
+        <div id="header_text">
+          <div id="site_signature">
+            jqLiu.dev
+          </div>
+          <div id="site_slogan">
+            Think Outside the Stack
+          </div>
+        </div>
       </div>
+      <!-- End of Resize_Header -->
     </div>
     <!-- End of Header -->
-    <div>
-      Current scroll = <b id="scrollValue">0 px</b>
-      <h1 style="text-align: center">
+    <div id="middle_bar">
+      <span>Current scroll = <b id="scrollValue">0 px</b></span>
+      <span>Current View height = <b id="heightValue">?px</b></span>
+      <span>Scroll'd down percentage = <b id="percentageValue">?px</b></span>
+      <!-- <h1 style="text-align: center">
         <i class="fas fa-hammer"></i>
         This site is currently
         <i class="fas fa-screwdriver"></i>
         under construction
         <i class="fas fa-wrench"></i>
-      </h1>
+      </h1> -->
     </div>
     <div id="panels">
       <div id="panelLeft">project demo 1</div>
